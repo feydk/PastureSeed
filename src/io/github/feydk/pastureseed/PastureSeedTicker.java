@@ -99,7 +99,7 @@ public class PastureSeedTicker extends BukkitRunnable
                 {
                     Block block = startingBlock.getWorld().getBlockAt(x, y, z);
 
-                    if(block.getType().equals(Material.DIRT) && block.getData() == 0 && block.getWorld().getBlockAt(x, y +1, z).getType().equals(Material.AIR) && GenericEventsPlugin.getInstance().playerCanGrief(player, block))
+                    if(block.getType().equals(Material.DIRT) && block.getData() == 0 && block.getWorld().getBlockAt(x, y +1, z).getType().equals(Material.AIR) && GenericEventsPlugin.getInstance().playerCanBuild(player, block))
                         range.add(block);
                 }
             }
@@ -112,6 +112,7 @@ public class PastureSeedTicker extends BukkitRunnable
             if(rnd.nextBoolean())
                 output.add(block);
 
+            // Below is old attempt at trying to mix chosen blocks up a little. Current method is actually good enough.
             /*List<Block> list = new ArrayList<>();
 
             for(int x = -1; x <= 1; x++)
