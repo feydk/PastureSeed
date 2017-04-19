@@ -1,6 +1,5 @@
 package io.github.feydk.pastureseed;
 
-import com.winthier.custom.CustomPlugin;
 import com.winthier.custom.event.CustomRegisterEvent;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

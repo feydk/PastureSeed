@@ -22,9 +22,7 @@ public class PastureSeed implements CustomItem
     private String description = "Turns regular dirt into grass.";
 
     PastureSeed()
-    {
-       // addRecipe();
-    }
+    {}
 
     @Override
     public String getCustomId()
