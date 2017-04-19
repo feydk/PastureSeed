@@ -4,7 +4,6 @@ import com.winthier.custom.CustomPlugin;
 import com.winthier.custom.item.CustomItem;
 import com.winthier.custom.item.ItemContext;
 import com.winthier.custom.item.ItemDescription;
-import com.winthier.custom.util.Dirty;
 import com.winthier.custom.util.Msg;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -70,7 +69,6 @@ public class PastureSeed implements CustomItem
     private ItemStack getItem()
     {
         ItemStack item = new ItemStack(Material.SEEDS, 1);
-        Dirty.setCustomId(item, getCustomId());
 
         ItemMeta meta = item.getItemMeta();
         meta.setDisplayName(Msg.format("&a%s", this.displayName));
