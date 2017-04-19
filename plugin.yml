@@ -1,0 +1,6 @@
+name: Pasture Seed
+description: Turns dirt into grass
+author: feydk
+version: 0.1
+main: io.github.feydk.pastureseed.PastureSeedPlugin
+depend: [ Custom, GenericEvents ]
