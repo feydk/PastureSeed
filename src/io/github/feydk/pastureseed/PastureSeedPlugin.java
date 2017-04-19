@@ -27,8 +27,6 @@ public class PastureSeedPlugin extends JavaPlugin implements Listener
     @EventHandler
     public void onCustomRegister(CustomRegisterEvent event)
     {
-        this.getLogger().info("onCustomRegister called");
-
         event.addItem(item);
 
         new BukkitRunnable() {
