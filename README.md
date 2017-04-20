@@ -1,5 +1,10 @@
 # PastureSeed
 Inspired by the item of the same name in the Botania mod.
 
-Craft the seed by surrounding one bone meal with seeds.
-Right click the pasture seed on a dirt block and watch the surrounding dirt blocks (in a radius of 3 blocks horizontally and 1 vertically) change to grass. Which blocks are transformed is random. Coarse dirt and podzol will not be changed.
+## What it does
+Right clicking the pasture seed on a dirt block will turn patches of surrounding dirt into grass blocks. It works in a horizontal radius of 3 and vertical radius of 1, selecting random blocks within that range to transform.
+
+Coarse dirt and podzol (subtypes of dirt) will not be changed.
+
+## Crafting
+Craft the pasture seed by surrounding a piece of bone meal with regular seeds (wheat seeds) in a 3x3 crafting grid.
